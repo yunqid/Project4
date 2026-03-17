@@ -1,15 +1,14 @@
 # Project 4
-- **Assigned: Friday October 31**
-- **Task 1 Due: Friday November 7, 11:59pm**
-- **Task 2 Due: Friday November 21, 11:59pm**
+- **Assigned: Monday March 16**
+- **Task 1 Due: Monday March 23, 11:59pm**
+- **Task 2 Due: Monday March 30, 11:59pm**
 
 Assigned by Marty Barrett
 Please direct questions to Piazza. Only email a TA or Marty if absolutely needed.
 
-**Three status notes:**
+**Note:**
  - Like the other projects, you must do this project alone.
- - The updated information on how to deploy Task 2 to the cloud and how to submit Task 2 for grading has been added below.
-  - The images have been re-labled to reflect using GitHub Codespaces.
+ - information on how to deploy Task 2 to the cloud and how to submit Task 2 for grading is given below.
 
 ## Project Topics: Mobile to Cloud application
 
@@ -47,9 +46,9 @@ e. A screenshot of the console output from section 1b.
 f. A screenshot of the console output from section 2c.
 
 **4.	Submit your document (only) to Canvas as a pdf by the Task 1 deadline.**  
-Do not submit your code. It will be integrated into Task 2.
+On Canvas, Project 4 Task 1 allows for only pdf uploads. Do not submit your code - that will be integrated into Task 2. 
 
-**Grading:**  
+**Grading for Task 1:**  
 - Task 1 complete and submitted on time: Bonus 5 points
 - Task 2 does not use the API demonstrated in Task 1:  Penalty 10 points
 
@@ -68,6 +67,7 @@ Grace days **cannot** be used for Task 1.  Grace days, if you have some remainin
 - any beer API (choose by type, etc.)
 - Dog.ceo
 - Eventful
+- FIFA 2025 men's tournament 
 - Flickr (we've have already done that)
 - Google Maps (unless you also use a 2nd API to get info to put on the map)
 - IsEvenAPI.xyz
@@ -94,7 +94,7 @@ Your application must be of your own creative design. (We will use software simi
 The following is a diagram of the components for your this part of your application:
 ![Task 2 Diagram](docs/Project4-Diagram-Partial.png)
 
-Your web service should be deployed to the cloud and provide a simple RESTful API similar to those you have developed in prior projects. You do NOT have to implement all HTTP methods, only those that make sense for your application. Your web service must fetch information from some 3rd party API.  In Project 1 you experimented with screen scraping, therefore that is not allowed in this project.  Rather, you must find an API that provides data via XML or JSON.  It is easy and can be fun to search for APIs; the [GitHub Public APIs repository](https://github.com/public-apis/public-apis) is a good place to start. But again, see the Banned API's list below.
+Your web service should be deployed to the cloud and provide a simple RESTful API similar to those you have developed in prior projects. You do NOT have to implement all HTTP methods, only those that make sense for your application. Your web service must fetch information from some 3rd party API.  In Project 1 you experimented with screen scraping, therefore that is not allowed in this project.  Rather, you ***must*** find an API that provides data via XML or JSON.  It is easy and can be fun to search for APIs; the [GitHub Public APIs repository](https://github.com/public-apis/public-apis) is a good place to start. But again, see the Banned API's list below.
 
 **See the Banned APIs section.** Do not use any of the banned API's. Some students forget this if they change API's after Task 1 (and don't get the bonus, either).
 
@@ -129,7 +129,9 @@ d.	Replies to the Android application with an XML or JSON formatted response. Th
 
 **Use Servlets, not JAX-RS, for your web services.** Students have had issues deploying web applications built with JAX-RS to Docker Containers and a solution has not yet been found.
 
-**Updated guidelines for deploying your web service to GitHub Codespaces will be provided before the Task 1 deadline.**
+**You will receive an invitation to join a GitHub Classroom assignment, where you'll deploy your web service.**
+
+e. The code files in this repo should be referenced from the Classroom assignment; if not, you can always just copy them (Dockerfile, .devcontainer.json, and build-and-run.sh).
 
 ##### 3. Handle error conditions
 Your application should test for and handle gracefully:
@@ -188,7 +190,7 @@ a. Accept the Github Classroom Assignment that you have been given the URL for. 
 
 b. Click the green <> Code dropdown button, select the Codespaces tab, then click on "Create codespace on master".
 
-c. Once the Codespace is running, the Terminal tab will show that Catalina (the Servlet container) is running.  You should also see a "1" next to the Ports tab.  Click on the Ports tab and you should see that port 8080 has been made available.  (Note: If you do not see the server running from the get-go (start of codespace), and do not see any port(8080) active, be sure to try running the 'build-and-run.sh' bash file by running `./build-and-run.sh' on the terminal. Confirm that the file is located and the root level of the project directory, and on the same level as your Dockerfile)
+c. Once the Codespace is running, the Terminal tab will show that Catalina (the Servlet container) is running.  You should also see a "1" next to the Ports tab.  Click on the Ports tab and you should see that port 8080 has been made available.  
 
 d. Mouse over the Local address item of the port 8080 line and you will find three icons.  The leftmost is to copy the URL of your deployed application, the middle one (a globe) is to launch that URL in a browser.  Clicking on the globe is a quick way to test your web service in a browswer.  The copy is useful to use the URL in your Android App.
 
