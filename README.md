@@ -1,7 +1,7 @@
 # Project 4
 - **Assigned: Monday March 16**
 - **Task 1 Due: Monday March 23, 11:59pm**
-- **Task 2 Due: Monday March 30, 11:59pm**
+- **Task 2 Due: Monday April 6, 11:59pm**
 
 Assigned by Marty Barrett
 Please direct questions to Piazza. Only email a TA or Marty if absolutely needed.
