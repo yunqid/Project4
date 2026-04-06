@@ -1,0 +1,10 @@
+/target/
+.idea/
+*.iml
+.DS_Store
+
+android-app/.gradle/
+android-app/**/build/
+android-app/local.properties
+android-app/.idea/
+android-app/captures/

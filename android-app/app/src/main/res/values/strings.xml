@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Job Search</string>
+    <string name="keyword_label">Keyword (matches title, company, location, tags)</string>
+    <string name="keyword_hint">e.g. java, remote, berlin</string>
+    <string name="search">Search jobs</string>
+    <string name="loading">Loading…</string>
+    <string name="need_keyword">Enter a keyword first.</string>
+    <string name="no_matches">No matching jobs.</string>
+    <string name="bad_response">Unexpected response from server.</string>
+    <string name="server_error">Server error: %1$s</string>
+    <string name="network_failure">Cannot reach server: %1$s</string>
+</resources>

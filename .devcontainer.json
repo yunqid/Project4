@@ -3,5 +3,10 @@
         "dockerfile": "Dockerfile"
     },
     "forwardPorts": [8080],
-    "postCreateCommand": "catalina.sh run"
+    "portsAttributes": {
+        "8080": {
+            "label": "Tomcat (Project 4 web service)",
+            "onAutoForward": "notify"
+        }
+    }
 }
