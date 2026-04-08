@@ -1,12 +1,15 @@
 {
     "build": {
-        "dockerfile": "Dockerfile"
+      "dockerfile": "Dockerfile"
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "forwardPorts": [8080],
     "portsAttributes": {
-        "8080": {
-            "label": "Tomcat (Project 4 web service)",
-            "onAutoForward": "notify"
-        }
+      "8080": {
+        "label": "Tomcat (Project 4 web service)",
+        "onAutoForward": "notify"
+      }
     }
-}
+  }

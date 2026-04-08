@@ -7,9 +7,6 @@ set -e
 
 cd "$(dirname "$0")"
 
-echo "Building WAR with Maven..."
-mvn -q clean package
-
 echo "Building Docker image..."
 docker build -t ds-project-04 .
 

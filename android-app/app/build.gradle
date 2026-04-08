@@ -14,7 +14,7 @@ android {
         versionCode 1
         versionName '1.0'
         // Replace with your public Codespace URL (must end with /). Example: https://xxxx-8080.app.github.dev/
-        buildConfigField 'String', 'BASE_URL', '"http://10.0.2.2:8080/"'
+        buildConfigField 'String', 'BASE_URL', '"https://glorious-guide-wv7q6gjgv6xh5gvx-8080.app.github.dev/"'
     }
     buildTypes {
         release {
